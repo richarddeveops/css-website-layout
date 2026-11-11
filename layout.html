@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A beginner-friendly portfolio layout exercise by Void-walker.">
+    <title>Website Layout | Void-walker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../HTML/theme.css">
+    <script src="app.js" defer></script>
+    <script src="../../HTML/theme.js" defer></script>
+</head>
+<body>
+    <header class="site-header" id="home">
+        <a class="brand" href="#home">V-W</a>
+        <button class="menu-toggle" id="menu-button" type="button"
+            aria-controls="main-navigation" aria-expanded="false">
+            Menu
+        </button>
+        <nav id="main-navigation" aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="mailto:temitayooladele065@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="eyebrow">Software Engineer | Full-Stack Development</p>
+            <h1>Hello, I'm Void-walker.</h1>
+            <p>
+                I am learning to build websites with HTML, CSS and JavaScript.
+                These pages are part of my coursework and practice.
+            </p>
+            <a class="button-link" href="#projects">See my practice projects</a>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Coursework and practice</h2>
+            <div class="project-list">
+                <article class="project-card">
+                    <h3>HTML forms</h3>
+                    <p>Practise labels, form fields and a simple browser confirmation.</p>
+                    <a href="../../HTML/html%20forms/index.html">Open forms practice</a>
+                </article>
+                <article class="project-card">
+                    <h3>HTML tables</h3>
+                    <p>Practise rows, columns, headings and table captions.</p>
+                    <a href="../../HTML/Html%20table/index.html">Open tables practice</a>
+                </article>
+                <article class="project-card">
+                    <h3>Responsive layout</h3>
+                    <p>Practise flexible widths and a media query for smaller screens.</p>
+                    <a href="../CSS%20Responsiveness/index.html">Open responsive practice</a>
+                </article>
+                <article class="project-card">
+                    <h3>Semantic portfolio</h3>
+                    <p>See my learning journey and the HTML elements used to structure it.</p>
+                    <a href="../../HTML/Continuation%20of%20tags%20in%20html%20%5Bsemantic%20tags%5D/portfolio.html">Open portfolio</a>
+                </article>
+            </div>
+        </section>
+        <section class="projects" id="about">
+            <h2>About this practice page</h2>
+            <p>This beginner project combines a flexible layout, navigation, and links to other coursework.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Learning and building one step at a time.</p>
+        <p><a href="https://github.com/void00walker-op" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+</body>
+</html>
